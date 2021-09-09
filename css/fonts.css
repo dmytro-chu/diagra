@@ -139,3 +139,7 @@
     .icon-close:before {
       content: "\e910";
     }
+    .chevron-down::before {
+      content: ">";
+      font-family: 'Times New Roman';
+    }
