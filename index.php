@@ -1,85 +1,8 @@
-<!DOCTYPE html>
-<html lang="ua">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.min.css">
+<?php include('head.php') ?>
     <title>ДУ "Інститут ядерної медицини та променевої діагностики НАМН України" — провідний заклад країни з питань неінвазивної діагностики</title>
 </head>
-<body>
-  <header class="container">
-      <div class="head">
-          <div class="logo">
-              <a href="#">
-                  <img src="img/5-400x137.png" alt="ДУ "Інститут ядерної медицини та променевої діагностики НАМН України"">
-              </a>
-          </div>
-          <div class="menu__button">
-              <button class="button">
-                <div class="menu__icon">
-                    <span></span>
-                </div>
-                <div class="menu__title">
-                    МЕНЮ
-                </div>
-              </button>
-          </div>
-          <nav class="menu">
-            <ul class = "menu__list">
-                <li><a href="послуги">ПОСЛУГИ</a></li>
-                <li class="has-children">
-                    <a href="про інститут">
-                        ПРО ІНСТИТУТ
-                        <span class="icon-cheveron-down"></span>
-                    </a>
-                    <button class="sub-menu-toggle">
-                        <span class="chevron-down"></span>
-                    </button>
-                    <ul class="sub-menu">
-                        <li><a class="menu-link" href="історія інституту"> Історія інституту</a></li>
-                        <li><a class="menu-link" href="адміністрація"> Адміністрація</a></li>
-                        <li><a class="menu-link" href="Структура інституту"> Структура інституту</a></li>
-                        <li class="has-children">
-                            <a class="menu-link" href="Відділення">
-                                Відділення
-                                <span class="icon-cheveron-right"></span> 
-                            </a>
-                            <button class="sub-menu-toggle">
-                                <span class="chevron-down"></span>
-                            </button>
-                            <ul class="sub-menu">
-                                <li><a class="menu-link" href="відділення мамології та загальної рентгенології"> Відділення мамології та загальної рентгенології</a></li>
-                                <li><a class="menu-link" href="відділення ультразвукової діагностики"> Відділення ультразвукової діагностики</a></li>
-                                <li><a  class="menu-link" href="відділення томографії"> Відділення томографії</a></li>
-                                <li><a  class="menu-link" href="консультативно-поліклінічне відділення"> Консультативно-поліклінічне відділення</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="has-children">
-                    <a href="наука">
-                        НАУКА
-                        <span class="icon-cheveron-down"></span>
-                    </a>
-                    <button class="sub-menu-toggle">
-                        <span class="chevron-down"></span>
-                    </button>
-                    <ul class="sub-menu">
-                        <li><a class="menu-link" href="наукова діяльність"> Наукова діяльність</a></li>
-                        <li><a class="menu-link" href="вчена рада"> Вчена рада</a></li>
-                        <li><a class="menu-link" href="рада молодих вчених"> Рада молодих вчених</a></li>
-                        <li><a class="menu-link" href="журнал"> Журнал</a></li>
-                    </ul>
-                </li>
-                <li><a href="онлайн консультації">ОНЛАЙН КОНСУЛЬТАЦІЇ</a></li>
-                <li><a href="контакти">КОНТАКТИ</a></li>
-            </ul>
-          </nav>
-      </div>
-  </header>
+<?php include('header.php') ?>
+    
   <main>
       <section class="section__background">
           <div class="container title__name">
@@ -240,11 +163,4 @@
         </div>  
       </section>
   </main>
-  <footer class="footer">
-      <div class="container footer__content">
-          ДУ "Інститут ядерної медицини та променевої діагностики НАМН України"
-      </div>
-  </footer>
-</body>
-<script src="js/script.js"></script>
-</html>
+<?php include('footer.php') ?>
